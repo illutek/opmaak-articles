@@ -85,11 +85,11 @@ De css
 
  Volgend inhoudstype ‘News’ met 3 velden, ‘Title’ (title), ‘Body’ (body) en ‘Images’ (field_news_img)
 
- ###Een simpele view
+##Een simpele view
 
  Page display van volledige content in een unformatted list
 
- ###Een node—news.tpl.php
+##Een node—news.tpl.php
  ```
  <?php
  $field = field_get_items('node', $node, 'field_news_img');
@@ -113,7 +113,7 @@ De css
  If $field bestaat wordt volgende class geprint ```<div class="news-wrap-img clearfix">```
  Zoniet else dan wordt deze class geprint ```<div class="news-wrap clearfix">````
 
- ###De rest is voor scss
+##De rest is voor scss
  ```
  /*
  * News items
